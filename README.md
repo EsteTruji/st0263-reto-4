@@ -52,18 +52,16 @@ Se implementó para este proyecto la siguiente arquitectura basada en la propues
 ## 3. Descripción del ambiente de ejecución lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
 
-IPs utilizadas en el reto 4:
+**IPs utilizadas en el reto 4:**
 
-IPs Privadas:
+**IPs Privadas:**
 
-- WordPress: 
-- WordPress2:
-- Load balancer:
-- DataBase: 
-- NFS: 
+- **Servicio Kubernetes:** 10.103.192.1
+- **Servicio Load balancer:** 10.103.193.248
 
-IPs Públicas:
-- Load balancer:
+**IPs Públicas:**
+- **Servicio Load balancer:** 34.171.91.170
+- **DataBase:** 35.192.174.33
 
 
 Cabe resaltar que para el desarrollo y cumplimiento de este reto no fue necesario instalar ningun otro paquete o libreria adicional ya que todos los recursos utilizados son nativos de GCP.
