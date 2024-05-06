@@ -477,7 +477,8 @@ docker compose up -d
 
 ## Referencias
 
-[How To Install and Use Docker on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+[Deploy Wordpress on Kubernetes in GCP the easy way!](https://www.youtube.com/watch?v=R7FI05Q-nkg)
 
+[Deploy WordPress on GKE with Persistent Disk and Cloud SQL](https://cloud.google.com/kubernetes-engine/docs/tutorials/persistent-disk?hl=es-419)
 
-[How To Set Up an NFS Mount on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+[Accede a las instancias de Filestore con el controlador de CSI de Filestore](https://cloud.google.com/filestore/docs/csi-driver?hl=es-419#deployment)
