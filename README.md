@@ -116,7 +116,8 @@ Para este proyecto, se realizó el despliegue de varias instancias según lo sol
 
 - Ahora procedemos a agregar el dominio (con el valor de la IP elástica del LB)  el subdominio en el DNS de igual forma y finalmente el registro CNAME. Dentro de la configuración de registros del proveedor, se vería de la siguiente manera: 
 
-![screenshot 2024-04-16 (13)](https://github.com/EsteTruji/st0263-reto-3/assets/83479274/50ab8642-165b-44cc-90b7-10de4dd2b5c8)
+![image](https://github.com/EsteTruji/st0263-reto-4/assets/94024545/cdd851f3-6b26-4a51-b846-68b0604e49f2)
+
 
 
 
