@@ -27,21 +27,20 @@ En este reto utilizamos los servicios de balanceador de cargas, Filestore y Clou
 **NO FUNCIONALES**
 
 -	**DISPONIBILIDAD:**
-    -  Despliegue de  aplicación wordpress dockerizada en varios nodos.
-    -  Implementar un balanceador de cargas basado en nginx que reciba el tráfico web https de Internet con múltiples instancias de procesamiento.
+    -  Despliegue de  aplicación wordpress con varios pods utilizando Kubernetes.
+    -  Implementar un balanceador de cargas basado en los servicios nativos de Google que reciba el tráfico web http de Internet con múltiples instancias de procesamiento.
    
 
 **FUNCIONALES**
--	Almacenamiento en la capa de datos con una instancia de bases de datos mysql.
-- Almacenamiento de archivos con una instancia de archivos distribuidos implementado con servicio NFS.
-- Conexion de servicios de wordpress con servicio NFS.
-- Utilización de https.
+-	Almacenamiento en la capa de datos haciendo uso del servicio de bases de datos mysql ofrecido por Google.
+- Almacenamiento de archivos implementado haciendo uso del servicio de NFS ofrecido por Google.
+- Conexion de servicios de wordpress con el servicio NFS.
 
 
 
 ### 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
-Se cumplieron con todos los requisitos propuestos en el reto por el profesor.
+No logro obtener el certificado SSL para implementar https dentro de la aplicación.
 
 ## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
@@ -54,7 +53,7 @@ Se implementó para este proyecto la siguiente arquitectura basada en la propues
 ## 3. Descripción del ambiente de ejecución lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
 
-IPs correspondientes a cada una de las X instancias utilizadas en el reto 4:
+IPs utilizadas en el reto 4:
 
 IPs Privadas:
 
@@ -68,7 +67,7 @@ IPs Públicas:
 - Load balancer:
 
 
-Cabe resaltar que para el desarrollo y cumplimiento de este reto no fue necesario instalar ningun otro paquete o libreria dentro de ninguna de las instancias utilizadas por el equipo, ya que todos los recursos utilizados son nativos de la plataforma.
+Cabe resaltar que para el desarrollo y cumplimiento de este reto no fue necesario instalar ningun otro paquete o libreria adicional ya que todos los recursos utilizados son nativos de GCP.
 
 
 ## 4. Guía paso a paso de instalación y configuración
