@@ -359,6 +359,16 @@ Siga después los pasos a continuación:
 
 - Ingrese el nombre de usuario y contraseña que creó anteriormente.
 
+Una vez todo está configurado, es posible ejecutar el siguiente comando para poder visualizar todos los pods, nodos, servicio y deployments creados en el cluster de Kubernetes:
+
+```
+kubectl get all
+```
+
+Mostrará algo así entonces:
+
+![image](https://github.com/EsteTruji/st0263-reto-4/assets/82886890/1e55fd24-3167-46c0-b172-77a06480cc2f)
+
 
 #### Configuración dominio.
 
