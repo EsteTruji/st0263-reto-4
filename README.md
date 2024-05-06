@@ -375,6 +375,8 @@ CNAME    www      reto4.toysnt.shop
 
 - Ahora, al acceder al enlace **http://reto4.toysnt.shop** podrá visualizar la página web desplegada y funcionando sin problema (tenga presente que para el momento de la revisión puede que las instancias que alojan todos los recursos y procesos previamente enunciados no estén en ejecución, y por lo tanto no esté disponible la página web).
 
+![image](https://github.com/EsteTruji/st0263-reto-4/assets/82886890/24841215-8aa4-46a6-825e-6721c4a7ae77)
+
 
 ## Referencias
 
