@@ -13,10 +13,10 @@
 
 # Video sustentación
 
-- Enlace: **...**
+[![Video](https://img.youtube.com/vi/6Vu73vi8l-g/0.jpg)](https://www.youtube.com/watch?v=6Vu73vi8l-g)
 
 ## 1. Breve descripción de la actividad
-Se desplegó un CMS wordpress (app monolítica) en una arquitectura distribuida haciendo uso de tecnologías como Kubernets, proveedores de dominio como GoDaddy y servicios de Google cloud.
+Se desplegó un CMS wordpress (app monolítica) en una arquitectura distribuida haciendo uso de tecnologías como Kubernets, proveedores de dominio como GoDaddy y servicios de Google Cloud Platform.
 
 En este reto utilizamos los servicios de balanceador de cargas, Filestore y Cloud SQL nativos de google para satisfacer las necesidades de nuestra aplicación. utilizando un servicio administrado de NFS en la nube a partir de la API de Filestore para disponer del sistema de archivos. se desplegaron (PENDIENTE POR CONFIRMAR Y ANOTAR) maquinas virtuales en google cloud.
 
@@ -46,6 +46,7 @@ No logro obtener el certificado SSL para implementar https dentro de la aplicaci
 
 Se implementó para este proyecto la siguiente arquitectura basada en la propuesta del profesor.
 
+![Reto4](https://github.com/EsteTruji/st0263-reto-4/assets/83479274/c6d99571-ebb8-43b5-baf1-24e7ce01638d)
 
 
 ## 3. Descripción del ambiente de ejecución lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
