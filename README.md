@@ -121,8 +121,12 @@ Se debe un clúster de GKE para alojar el contenedor de tu aplicación de WordPr
 En Cloud Shell, cree un clúster de GKE llamado persistent-disk-tutorial (se puede colocar el nombre que se requiera):
 
 ```
-CLUSTER_NAME=persistent-disk-tutorial
-gcloud container clusters create $CLUSTER_NAME
+gcloud container clusters create CLUSTER_NAME \
+    --enable-autoscaling \
+    --num-nodes NUM_NODES \
+    --min-nodes MIN_NODES \
+    --max-nodes MAX_NODES \
+    --region=COMPUTE_REGION
 ```
 
 Una vez creado, se debe conectar a su nuevo clúster:
